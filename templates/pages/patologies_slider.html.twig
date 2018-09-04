@@ -1,0 +1,112 @@
+<div class="patologies-slider">
+    {% for id, patologia in patologies %}
+        <div class="product-item" id="{{ id }}">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-3 d-flex ml-auto rounded">
+                    <h5 class="section-heading mb-0 product-item-header">
+                        <span class="section-heading-lower text-center">{{ patologia.title|nl2br }}</span>
+                    </h5>
+                </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="{{ asset('assets/img/portfolio/' ~ patologia.img) }}" alt="{{ patologia.title }}">
+            <div class="product-item-description d-flex mr-auto">
+                <div class="bg-faded-description p-3 rounded product-item-content">
+                    <span class="text-center">{{ patologia.body }}</span>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{#<div class="patologies-slider">#}
+    {#<div class="product-item" id="dificutats_sensorials">#}
+        {#<div class="product-item-title d-flex">#}
+            {#<div class="bg-faded p-3 d-flex ml-auto rounded">#}
+                {#<h5 class="section-heading mb-0 product-item-header">#}
+                    {#<span class="section-heading-lower text-center">Dificultats sensorials</span>#}
+                {#</h5>#}
+            {#</div>#}
+        {#</div>#}
+        {#<img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="{{ asset('assets/img/portfolio/dificultats_sens.jpg') }}" alt="Dificultats sensorials">#}
+        {#<div class="product-item-description d-flex mr-auto">#}
+            {#<div class="bg-faded-description p-3 rounded product-item-content">#}
+                {#<span class="text-center">Pèrdua o reducció de la percepció sensorial que pot generar dificultats a nivell cognitiu o emocional.</span>#}
+            {#</div>#}
+        {#</div>#}
+    {#</div>#}
+    {#<div class="product-item" id="dislexies">#}
+        {#<div class="product-item-title d-flex">#}
+            {#<div class="bg-faded p-3 d-flex ml-auto rounded">#}
+                {#<h5 class="section-heading mb-0 product-item-header">#}
+                    {#<span class="section-heading-lower text-center">Dislèxies</span>#}
+                {#</h5>#}
+            {#</div>#}
+        {#</div>#}
+        {#<img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="{{ asset('assets/img/portfolio/dislexia.jpg') }}" alt="Dislèxies">#}
+        {#<div class="product-item-description d-flex mr-auto">#}
+            {#<div class="bg-faded-description p-3 rounded product-item-content">#}
+                {#<span class="text-center">Disfunció en el procés d’aprenentatge de la lecto-escriptura.</span>#}
+            {#</div>#}
+        {#</div>#}
+    {#</div>#}
+    {#<div class="product-item" id="estres">#}
+        {#<div class="product-item-title d-flex">#}
+            {#<div class="bg-faded p-3 d-flex ml-auto rounded">#}
+                {#<h5 class="section-heading mb-0 product-item-header">#}
+                    {#<span class="section-heading-lower text-center">Estrès</span>#}
+                {#</h5>#}
+            {#</div>#}
+        {#</div>#}
+        {#<img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="{{ asset('assets/img/portfolio/estrés.jpg') }}" alt="Estrès">#}
+        {#<div class="product-item-description d-flex mr-auto">#}
+            {#<div class="bg-faded-description p-3 rounded product-item-content">#}
+                {#<span class="text-center">Incapacitat de reduir l’estat d’alerta per una reacció excessiva del cos o la ment davant d'estímuls que percebem com a nocius.</span>#}
+            {#</div>#}
+        {#</div>#}
+    {#</div>#}
+    {#<div class="product-item" id="hiperactivitat">#}
+        {#<div class="product-item-title d-flex">#}
+            {#<div class="bg-faded p-3 d-flex ml-auto rounded">#}
+                {#<h5 class="section-heading mb-0 product-item-header">#}
+                    {#<span class="section-heading-lower text-center">Hiperactivitat</span>#}
+                {#</h5>#}
+            {#</div>#}
+        {#</div>#}
+        {#<img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="/psimuva/public/assets/img/portfolio/hiperactivitat.jpg" alt="Hiperactivitat">#}
+        {#<div class="product-item-description d-flex mr-auto">#}
+            {#<div class="bg-faded-description p-3 rounded product-item-content">#}
+                {#<span class="text-center">Dificultats en el control d’impulsos, especialment els relacionats amb el moviment.</span>#}
+            {#</div>#}
+        {#</div>#}
+    {#</div>#}
+    {#<div class="product-item" id="lesions_cerebrals">#}
+        {#<div class="product-item-title d-flex">#}
+            {#<div class="bg-faded p-3 d-flex ml-auto rounded">#}
+                {#<h5 class="section-heading mb-0 product-item-header">#}
+                    {#<span class="section-heading-lower text-center">Lesions cerebrals traumàtiques i no traumàtiques</span>#}
+                {#</h5>#}
+            {#</div>#}
+        {#</div>#}
+        {#<img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="/psimuva/public/assets/img/portfolio/les_cerebral.jpg" alt="Lesions cerebrals traumàtiques i no traumàtiques">#}
+        {#<div class="product-item-description d-flex mr-auto">#}
+            {#<div class="bg-faded-description p-3 rounded product-item-content">#}
+                {#<span class="text-center">Afectació neurològica congènita o sobrevinguda que comporta problemes de desenvolupament o afectació en la vida quotidiana de la persona.</span>#}
+            {#</div>#}
+        {#</div>#}
+    {#</div>#}
+    {#<div class="product-item" id="neurodegeneratives">#}
+        {#<div class="product-item-title d-flex">#}
+            {#<div class="bg-faded p-3 d-flex ml-auto rounded">#}
+                {#<h5 class="section-heading mb-0 product-item-header">#}
+                    {#<span class="section-heading-lower text-center">Malalties neurodegeneratives</span>#}
+                {#</h5>#}
+            {#</div>#}
+        {#</div>#}
+        {#<img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="/psimuva/public/assets/img/portfolio/neurodegeneratives.jpg" alt="Malalties neurodegeneratives">#}
+        {#<div class="product-item-description d-flex mr-auto">#}
+            {#<div class="bg-faded-description p-3 rounded product-item-content">#}
+                {#<span class="text-center">Reducció de capacitats esdevinguda per una pèrdua significativa de funcions neuronals.</span>#}
+            {#</div>#}
+        {#</div>#}
+    {#</div>#}
+{#</div>#}

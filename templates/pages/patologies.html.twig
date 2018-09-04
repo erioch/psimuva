@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block navigation %}
+    {% include 'navigation_pages.html.twig' %}
+{% endblock %}
+
+{% block body %}
+    {#<br>#}
+    {#<br>#}
+    <section id="patologies">
+        <div class="container">
+            {% for id, patologia in patologies %}
+                {% if loop.first %}
+                    <div class="row justify-content-center">
+                {% endif %}
+                <div class="col-4">
+                    <div class="product-item" id="{{ id }}">
+                        <div class="product-item-title d-flex">
+                            <div class="bg-faded p-3 d-flex ml-auto rounded">
+                                <h5 class="section-heading mb-0 product-item-header">
+                                    <span class="section-heading-lower text-center">{{ patologia.title|nl2br }}</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <img class="product-item-img mx-auto d-flex imgRedonda mb-3 mb-lg-0" src="{{ asset('assets/img/portfolio/' ~ patologia.img) }}" alt="{{ patologia.title }}">
+                        <div class="product-item-description d-flex mr-auto">
+                            <div class="bg-faded-description p-3 rounded product-item-content">
+                                {#<p class="mb-0 product-item-body text-center">{{ patologia.body }}</p>#}
+                                <span class="text-center">{{ patologia.body }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% if loop.index % 3 == 0 %}
+                    </div>
+                    {% if not loop.last %}
+                        <br>
+                        <br>
+                        <div class="row justify-content-center">
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

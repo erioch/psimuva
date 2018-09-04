@@ -1,0 +1,100 @@
+bullying:
+  title: Bullying
+  img: 123.jpg
+  body: Maltractament físic, psicològic o emocional entre nens i nenes en edat escolar.
+burnout:
+  title: Burnout
+  img: burnout.jpg
+  body: També conegut com a "Síndrome d'esgotament professional". Patiment derivat d'una situació d'estrès físic o emocional perllongat a nivell laboral.
+creixement_personal:
+  title: Creixement personal
+  img: creixement_personal.jpg
+  body: Procés d’autoconeixement per tal de desenvolupar estratègies amb l’objectiu de millorar la qualitat de vida, adaptar-se als canvis o assolir noves metes.
+tda:
+  title: Dèficit d'atenció (TDA - TDAH)
+  img: tda.jpg
+  body: Dificultats en la gestió de l’atenció, que poden o no generar problemes d'hiperactivitat. Acostumen a influir en el rendiment acadèmic.
+depressio:
+  title: Depressió adults i gent gran
+  img: depresio_2.jpg
+  body: Estat d’ànim, transitori o permanent, caracteritzat per tristor, manca de motivació i dificultats per gaudir. Pot anar acompanyada d’ansietat.
+depressio:
+  title: Depressió infanto-juvenil
+  img: depresio_inf_1.jpg
+  body: Afectació emocional que provoca disfuncions en diversos àmbits del nen o nena amb influència en les seves activitats i relacions habituals.
+dificultats_aprenentatge:
+  title: Dificultats d'aprenentatge
+  img: dificultats_apren.jpg
+  body: Falta d’habilitats o recursos en el desenvolupament d’alguna àrea que provoca problemes en el rendiment acadèmic.
+dificutats_sensorials:
+  title: Dificultats sensorials
+  img: dificultats_sens.jpg
+  body: Pèrdua o reducció de la percepció sensorial que pot generar dificultats a nivell cognitiu o emocional.
+dislexies:
+  title: Dislèxies
+  img: dislexia.jpg
+  body: Disfunció en el procés d’aprenentatge de la lecto-escriptura.
+estres:
+  title: Estrès
+  img: estrés.jpg
+  body: Incapacitat de reduir l’estat d’alerta per una reacció excessiva del cos o la ment davant d'estímuls que percebem com a nocius.
+hiperactivitat:
+  title: Hiperactivitat
+  img: hiperactivitat.jpg
+  body: Dificultats en el control d’impulsos, especialment els relacionats amb el moviment.
+lesions_cerebrals:
+  title: Lesions cerebrals traumàtiques i no traumàtiques
+  img: les_cerebral.jpg
+  body: Afectació neurològica congènita o sobrevinguda que comporta problemes de desenvolupament o afectació en la vida quotidiana de la persona.
+neurodegeneratives:
+  title: Malalties neurodegeneratives
+  img: neurodegeneratives.jpg
+  body: Reducció de capacitats esdevinguda per una pèrdua significativa de funcions neuronals.
+moving:
+  title: Moving
+  img: moving.jpg
+  body: Problemes de relació en entorns laborals.
+preparacio_part:
+  title: Preparació al part
+  img: preparacio_part.jpg
+  body: Acompanyament de l'embaràs, preparació al part i atenció post-part.
+problemes_parella:
+  title: Problemes de parella
+  img: separacio.jpg
+  body: Dificultats en les relacions entre els integrants d'una relació íntima.
+problemes_relacionals:
+  title: Problemes relacionals
+  img: problemes_relacionals.jpg
+  body: Dificultats en la gestió de les habilitats socials.
+adopcio:
+  title: Recolzament en el procés d'adopció
+  img: adopcions.jpg
+  body: Guia i suport de les noves relacions familiars.
+dol:
+  title: Situacions de dol
+  img: dol.jpg
+  body: Situació generada per una pèrdua molt significativa emocional, material, física o de qualsevol altre tipus.
+tgd:
+  title: Trastorn generalitzat del desenvolupament (TGD)
+  img: tgd.jpg
+  body: Problemes en el desenvolupament cerebral que produeixen afectacions en l’adquisició de qualsevol tipus d’habilitat o aprenentatge.
+toc:
+  title: Trastorn obsessiu-compulsiu (TOC)
+  img: toc.jpg
+  body: Trastorn caracteritzat per pensaments recurrents i persistents que provoquen una ansietat que només s’aconsegueix disminuir a través de conductes repetitives que no es poden evitar.
+ansietat:
+  title: Trastorns d'ansietat
+  img: ansietat.jpg
+  body: Experimentació recurrent de sentiments d'angoixa i por davant de situacions que no les justifiquen, amb manifestacions físiques o psicològiques.
+trastorns_conducta:
+  title: Trastorns de conducta
+  img: conducta.jpg
+  body: Forma persistent i reiterada de comportament dissocial, agressiu o retador.
+trastorns_parla:
+  title: Trastorns del llenguatge i/o parla
+  img: trastorn_parla.jpg
+  body: Dificultats en el desenvolupament, comprensió o producció del llenguatge tant escrit com oral.
+trastorns_emocionals:
+  title: Trastorns emocionals
+  img: emocionals.jpg
+  body: Dificultats en la correcta identificació i gestió de les emocions.
